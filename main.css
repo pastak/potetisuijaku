@@ -1,0 +1,42 @@
+#wrapper {
+  margin: auto;
+  width: 95%;
+}
+
+.poteti-card {
+  margin: 5px;
+  border: 2px solid black;
+  width: 65px;
+}
+.pre {
+  margin: 5px;
+  border: 4px solid blue;
+  width: 65px;
+}
+.ok {
+  margin: 5px;
+  border: 10px solid red;
+  width: 65px;
+}
+#blank {
+  background-color: rgba(80,80,80,0.8);
+  position: fixed;
+  margin: 0px;
+  z-index: 1;
+  top: 0;
+  display: none;
+  left: 0;
+}
+
+#message {
+  padding: 10px;
+  font-size: 40px;
+  width: 85%;
+  height: 300px;
+  left:10%;
+  top: 20%;
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+  display: none;
+}
